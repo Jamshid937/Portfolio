@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap");
+
+
+
+
+
+
+
+
+.back-img{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url('../../assets/back.jpg');
+  background-position: center;
+  background-repeat:  no-repeat;
+  background-size: cover;
+  text-align: center;
+  overflow: hidden;
+}
+
+
+
+
+
+
+::-moz-selection {
+  background: rgba(170, 170, 170, 0.3);
+}
+
+::selection {
+  background: rgba(170, 170, 170, 0.3);
+}
+
+.heading {
+    width: 100%;
+    height: 100%;
+    font-size: 64px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto auto;
+}
+.heading > div {
+
+  overflow: hidden;
+}
+/* .heading > div > p {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  white-space: nowrap;
+  line-height: 117%;
+} */
+
+.green {
+  color: #32c267;
+}
+
+div.heading > div {
+  -webkit-animation-delay: 0;
+          animation-delay: 0;
+}
+div.heading > div:nth-child(2) > p {
+  -webkit-animation-delay: 0.05s;
+          animation-delay: 0.05s;
+}
+
+div.heading > div {
+  -webkit-animation-delay: 0;
+          animation-delay: 0;
+}
+div.heading > div:nth-child(3) > p {
+  -webkit-animation-delay: 0.075s;
+          animation-delay: 0.075s;
+}
+
+.slide-up {
+  -webkit-animation: slide-up 0.9s cubic-bezier(0.65, 0, 0.35, 1) both;
+          animation: slide-up 0.9s cubic-bezier(0.65, 0, 0.35, 1) both;
+          color: #ffffff;
+}
+
+@-webkit-keyframes slide-up {
+  0% {
+    transform: translateY(100px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-up {
+  0% {
+    transform: translateY(100px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+@media  only screen and (max-width: 768px){
+  .heading{
+   font-size: 45px;
+  }
+}
+@media  only screen and (max-width: 497px){
+  .heading{
+   font-size: 40px;
+  }
+}
+
+@media  only screen and (max-width: 424px){
+  .heading{
+   font-size: 35px;
+  }
+}
+
+@media only screen and (max-width: 378px) {
+  
+  .heading {
+  font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 325px) {
+  
+  .heading {
+  font-size: 27px;
+  }
+}

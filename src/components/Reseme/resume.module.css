@@ -1,0 +1,29 @@
+.resume{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;  
+    color:rgb(85, 85, 248);
+    text-align: center;
+    padding-top: 150px;
+}
+.resume__title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 64px; 
+    text-align: center; 
+    color: #000000;
+    padding-bottom: 30px;
+}
+
+.resume__img{
+max-width: 900px;
+width: 100%;
+margin: 0 auto;
+display: flex;
+justify-content: center;
+border: 2px solid #b1b1b1;
+border-image: 1 linear-gradient(to bottom, #8b8b8b, transparent 40% 60%, #8b8b8b);
+}

@@ -1,0 +1,124 @@
+.project{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;  
+    color:rgb(85, 85, 248);
+    text-align: center;
+    padding-top: 150px;
+}
+.portfolio{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 64px; 
+    text-align: center; 
+    color: #000000;
+}
+.portfolio__proekts__item{
+display: flex;
+justify-content: space-between;
+margin-top: 30px;
+}
+
+.portfolio__proekts-img img{
+width: 300px;
+height: 320px;
+}
+.portfolio__proekts-img{
+display: flex;
+}
+
+.portfolio__proekts-info__title{
+ font-style: normal;
+ font-weight: 400;
+ font-size: 26px; 
+ color:rgb(85, 85, 248);
+}
+.portfolio__proekts-info{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ padding-left: 30px;
+}
+.portfolio__proekts-info__text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(51, 51, 51, 0.496405);
+    padding-top: 30px;
+    padding-bottom: 45px;
+}
+.portfolio__proekts-info__link{
+    width: 30%;
+    color: #ffffff;
+    background:rgb(85, 85, 248);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    padding:10px 50px;
+ 
+    text-align: center;
+}
+
+.portfolio__proekts-img-florist img{
+    width: 600px;
+    
+    height: 320px;
+}
+
+@media  only screen and (max-width: 891px){
+.portfolio__proekts__item{
+flex-direction: column;
+}
+  }
+
+  @media  only screen and (max-width: 622px){
+    .portfolio__proekts-img{
+        display: flex;
+        justify-content: center;
+        
+        align-items: center;
+    flex-direction: column;
+    
+    }
+      }
+
+      @media  only screen and (max-width: 615px){
+        .portfolio__proekts-img-florist img{
+            width: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+          }
+          @media  only screen and (max-width: 415px){
+            .portfolio__proekts-img-florist img{
+                width: 300px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+            }
+            .portfolio__proekts-img-florist{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+              }
+              @media  only screen and (max-width: 315px){
+                .portfolio__proekts-img-florist img{
+                    width: 275px;
+
+                    
+                }
+                .portfolio__proekts-img-florist{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                  }

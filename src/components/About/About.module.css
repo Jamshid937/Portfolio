@@ -1,0 +1,126 @@
+.about{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 64px; 
+    text-align: center; 
+    color: #000000;
+    padding-top: 50px;
+}
+.about__text-box{
+max-width:1000px;
+width: 100%;
+margin: 0 auto;
+}
+.about__text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;  
+    color: #333333;
+    text-align: center;
+    padding-top: 15px;
+}
+
+
+
+.about__hero__img img{
+    max-width: 600px;
+width: 100%;
+height: 500px;
+}
+.about__hero{
+display: flex;
+align-items: center;
+padding-bottom: 50px;
+}
+.about__info{
+margin-left: 20px;
+}
+.about__info__text{
+    display: flex;
+    align-items: center;
+    font-family: 'Sans-serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;  
+    color: #4f4e4e;
+  
+}
+.about__info__icon img{
+    width: 30px;
+    height: 30px;
+}
+.about__info__icon{
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 64px; 
+    text-align: center; 
+    color: #000000;
+    padding-right: 20px;
+}
+
+@media only screen and (max-width: 1033px) {
+    .about__hero{
+      flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .about__text{
+    font-size: 16px;
+    }
+    .about__info__text {
+        display: flex;
+        align-items: center;
+        font-family: 'Sans-serif';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        color: #4f4e4e;
+    }
+}
+
+@media  only screen and (max-width: 768px){
+    .about{
+     font-size: 40px;
+    }
+  }
+  @media  only screen and (max-width: 497px){
+    .about{
+     font-size: 35px;
+    }
+
+    .about__info__icon{
+
+        font-size: 20px;
+
+    }
+  } 
+  
+  @media  only screen and (max-width: 424px){
+    .about{
+     font-size: 30px;
+    }
+  }
+  
+  @media  only screen and (max-width: 325px){
+    .about__info__icon{
+
+        font-size: 16px;
+
+    }
+  }
+
+  @media  only screen and (max-width: 325px){
+    .about__info__icon{
+
+        font-size: 14px;
+
+    }
+  }
