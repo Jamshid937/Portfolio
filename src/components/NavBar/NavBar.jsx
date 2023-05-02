@@ -27,7 +27,7 @@ function NavBar() {
               Frontend Developer
               <i className="fa fa-code"></i>
             </a>
-            <ul className={click ? "nav-menu active" : "nav-menu" } data-aos="zoom-in">
+            <ul className={click ? "nav-menu active" : "nav-menu" }>
               <li className="nav-item">
                 <a
                   exact
