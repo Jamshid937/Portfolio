@@ -58,7 +58,7 @@ const Contact = () => {
     <Container>
        <section className={classes['contact-container']}>
 
-         <form className={classes["contact-form"]} onClick={sendtelegram} data-aos="flip-right" >
+         <form className={classes["contact-form"]} onSubmit={sendtelegram} data-aos="flip-right" >
            <div className={classes["heading"]} >
              <h2 id='contact'>CONTACT US</h2>
              <p>feel free to reach out to us, we'd love to hear from you!</p>
